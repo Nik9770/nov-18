@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+#container{
+    width: 100vw;
+    background-color: black;
+}
+
+#navbar-container{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    align-items: center;
+    background: #FCAF02;
+    padding:2em 3em 2em 3em;
+}
+
+#logo-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+ 
+#links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#links li{
+list-style-type: none;
+font-size: 2rem;
+font-weight: 400;
+margin-right: 2em;
+}
+
+/* Hero section */
+
+#hero-section{
+    display: flex;
+    width: 96%;
+    margin-inline: auto;
+    margin-top: 5em;
+    margin-bottom: 8em;
+}
+
+#hero-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#hero-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+#hero-desc{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.login{
+    width: 220px;
+    padding: .6em;
+    border-radius: 30px;
+    background-color: #FCAF02;
+    border: none;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#jeff img{
+    width: 500px;
+    height: auto;
+}
+
+/* contact us */
+
+#contact-us-section{
+    width: 96%;
+    margin-inline: auto;
+}
+
+#contact-us-title{
+    color: #FCAF02;
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: .7em;
+}
+
+.input-box{
+    padding-top:.7em;
+    padding-bottom:.7em;
+    padding-left: 2em;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 1.5em;
+    background-color: black;
+}
+
+input:focus {
+    outline: none;
+  }
+
+::placeholder {
+    color: #FCAF02;
+}
+
+.input-big{
+    display: block;
+    width: 96%;
+    margin-inline: auto;
+}
+
+.input-small{
+    width: 45%;
+}
+
+input[type=tel]{
+    margin-right: 1.6em;
+    margin-left: .2em;
+}
+
+form input[type=submit]{
+    margin-top: 1.5em;
+    width: 200px;
+    margin-inline: auto;
+    display: block;
+}
+
+table{
+    width: 96%;
+    margin-inline: auto;
+    color: #FCAF02;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+table, th, td{
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 1.5em;
+}
+
+th{
+    text-align: start;
+}
+
+tfoot td{
+    background-color: #FCAF02;
+    color: #000;
+}
+
+.line{
+    border-right: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.table-box::after{
+    content: "fsf";
+    display: block;
+}
